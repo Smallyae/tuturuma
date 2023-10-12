@@ -1,6 +1,6 @@
 
     body{
-        background-image: url(/img/bgEstrellas.png) ;
+        background-image: url(/Documentos/tuturuma/img/bgEstrellas.png) ;
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -12,7 +12,7 @@
         color: white;
     }
     #bg2General{
-        background-image: url(/img/bg2.png);
+        background-image: url(/Documentos/tuturuma/img/bg2.png);
         background-repeat: no-repeat;
         background-size:cover;
         margin: 0%;
