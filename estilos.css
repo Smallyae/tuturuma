@@ -1,0 +1,193 @@
+
+    body{
+        background-image: url(/img/bgEstrellas.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        margin: 0%;
+        padding: 0;
+        height: fit-content;
+        max-width: 100vw;
+        overflow-x: hidden;
+        color: white;
+    }
+    #bg2General{
+        background-image: url(/img/bg2.png);
+        background-repeat: no-repeat;
+        background-size:cover;
+        margin: 0%;
+    }
+    #scroll{
+        position: relative;
+    }
+    #scrollImg{
+        position: absolute;
+        left: 20%;
+        z-index: 1;
+        top: 100px;
+    }
+    #scrollImg img{
+        margin: 0%;
+        width: 65%;
+    }
+    #tejido{
+        position: absolute;
+        top: 500px;
+        left: -10px;
+        opacity: 55%;
+    }
+    #tejido img{
+        margin: 0%;
+        width: 80%;
+    }
+    #tejido2{
+        position: absolute;
+        top: 110px;
+        right: 0px;
+        opacity: 55%;
+    }
+    #tejido2 img{
+        margin: 0%;
+        width: 80%;
+    }
+    h1, h3, h4{
+        color: white;
+    }
+    h3{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    h4{
+        font-family: Georgia;
+        font-weight: lighter;
+    }
+    h2{
+        color: #AB9A73;
+        font-family: 'beaufort';
+        font-size:xx-large;
+    }
+    
+    .btn-menu{
+        margin: 10px 10px;
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: flex-end;
+        transition: all .5s ease;
+        position: fixed;
+        width: 95%;
+    }
+    #menu{
+        z-index: 2;
+        position: fixed;
+    }
+    #btn-menu{
+        transition: all .5s ease;
+    }
+    .btn-menu img{
+        vertical-align: top;
+        width: 40px;
+        cursor: pointer;
+    }
+    .cont-menu{
+        background-color: rgba(0, 0, 0, 0.96);
+        box-shadow:2px 0px 5px 2px rgb(66, 66, 66);
+        width: 400px;
+        height: 100vh;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transition: all .5s ease;
+    }
+    .active{
+        transform: translate(600px);
+    }
+    .voltear{
+        transform: rotate(180deg);
+    }
+    .opacity{
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all .5s ease;
+    }
+    .cont-menu ul{
+        padding: 100px 0px 20px 0px;
+        list-style: none;
+    }
+    .cont-menu ul li{
+        color: white;
+        display: block;
+        font-size: 25px;
+        text-decoration: none;
+        padding: 10% 50px;
+        cursor: pointer;
+    }
+    .cont-menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-family: 'beaufort';
+    }
+    .cont-menu ul li:hover{
+        background-color: rgba(228, 228, 228, 0.442);
+        color:#AB9A73;
+    }
+    .cont-menu ul li a:hover{
+        color: #050505;
+    }
+    #menu .actual{
+        color: #AB9A73;
+        text-decoration:line-through;
+    }
+    #seccion-1{
+        height: 100vh;
+    }
+    .titulo{
+        padding: 40% 15% 0% 15%;
+        font-family: 'vilamorena';
+        text-align: center;
+    }
+    .sub{
+        padding: 0% 15% 40% 15%;
+        text-align: center;
+    }
+    .subtitulos{
+        text-align: center;
+        padding: 15% 15% 0% 15%;
+    }
+    #narrativa{
+        margin: 5%;
+    }
+    .ilustracion img{
+        width: 100%;
+    }
+    .cajacontenedora{
+        width: 50%;
+    }
+    .copy{
+        background-color: rgba(255, 255, 255, 0.21);
+        font-size: 11px;
+        padding: 2%;
+        text-align: center;
+    }
+    .contenedorRoles{
+        padding: 5%;
+    }
+    .fotoP{
+        width: 60%;
+    }
+    .fotoP img{
+        width: 100%;
+    }
+    .contPersona{
+        display: flex;
+    }
+    .cargoP{
+        width: 40%;
+        padding: 5%;
+    }
+    .cargoP h3, h4{
+        margin-top: 0%;
+    }
+    .fotoP{
+        border: #AB9A73 solid 2px;
+        padding: 1%;
+    }
+
