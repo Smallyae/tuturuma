@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'beaufortb';
-    src: url('/Documentos/tuturuma/fonts/beaufort-Bold.ttf') format('truetype');
+    src: url('fonts/beaufort-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Georgia';
-    src: url('/fonts/georgia.ttf')format('truetype');
+    src: url('fonts/georgia.ttf')format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'Georgiab';
-    src: url('/fonts/georgiab.ttf')format('truetype');
+    src: url('fonts/georgiab.ttf')format('truetype');
 }
 @font-face {
     font-family: 'vilamorena';
-    src: url('/fonts/vilamorena.ttf')format('truetype');
+    src: url('fonts/vilamorena.ttf')format('truetype');
 }
