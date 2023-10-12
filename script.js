@@ -8,8 +8,8 @@ iconoMenu.addEventListener('click', (e) => {
     document.body.classList.toggle('opacity');
     const rutaActual = e.target.getAttribute('src');
     if(rutaActual == '/img/icon-menu.png'){
-        e.target.setAttribute('src','/img/icon-menu.png');
+        e.target.setAttribute('src','/Documentos/tuturuma/img/icon-menu.png');
     }else{
-        e.target.setAttribute('src','/img/icon-menu.png');
+        e.target.setAttribute('src','/Documentos/tuturuma/img/icon-menu.png');
     }
 });
