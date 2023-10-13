@@ -12,9 +12,9 @@
 }
 @font-face {
     font-family: 'Georgiab';
-    src: url('tuturuma\fontsgeorgiab.ttf')format('truetype');
+    src: url('tuturuma/fonts/georgiab.ttf')format('truetype');
 }
 @font-face {
     font-family: 'vilamorena';
-    src: url('tuturuma\fontsvilamorena.ttf')format('truetype');
+    src: url('tuturuma/fonts/vilamorena.ttf')format('truetype');
 }
