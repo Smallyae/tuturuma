@@ -7,7 +7,7 @@ iconoMenu.addEventListener('click', (e) => {
     icono.classList.toggle('voltear');
     document.body.classList.toggle('opacity');
     const rutaActual = e.target.getAttribute('src');
-    if(rutaActual == '/img/icon-menu.png'){
+    if(rutaActual == 'img/icon-menu.png'){
         e.target.setAttribute('src','img/icon-menu.png');
     }else{
         e.target.setAttribute('src','img/icon-menu.png');

@@ -17,6 +17,13 @@
         background-size:cover;
         margin: 0%;
     }
+    .logo{
+        width: 100%;
+    }
+    .logoimg{
+        width: 20%;
+        margin: 2%;
+    }
     #scroll{
         position: relative;
     }
