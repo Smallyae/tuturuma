@@ -87,12 +87,6 @@
         z-index: 2;
         position: fixed;
     }
-    #cont-menu a{
-        width: 100%;
-    }
-    .opcionmenu a{
-        width: 100%;
-    }
     #btn-menu{
         transition: all .5s ease;
     }
@@ -137,7 +131,6 @@
         text-decoration: none;
         color: white;
         font-family: 'beaufort';
-        padding: 10% 50px;
     }
     .cont-menu ul li:hover{
         background-color: rgba(228, 228, 228, 0.442);
